@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url(one-pice-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+h2{
+  width: 250px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(45, 25, 49, .9);
+  outline: 3px solid rgb(12, 7, 11, 1);
+  text-shadow: 2px 2px 4px rgba(0,0,0, .7);
+  margin: 10px;
+}
+
+.clock{
+  display: flex;
+  position: relative;
+}
+
+.clock .not-tod{
+  margin: 10px;
+  outline: 3px solid rgb(12, 7, 11, .9)
+}
+
+.clock span{
+  width: 100px;
+  height: 80px;
+  background: rgb(45, 25, 49);
+  opacity: .8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0,0,0);
+  
+}
+
+.clock .text{
+  height: 30px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: rgb(9, 1, 24);
+  opacity: .9;
+  
+  
+}
+
+.clock #tod{
+  margin: 10px;
+  bottom: 50px;
+  position: absolute;
+  width: 60px;
+  outline: 3px solid rgb(12, 7, 11, 1);
+  height: 40px;
+  font-size: 20px;
+  background: rgb(45, 25, 49);
+  opacity: .9;
+}
